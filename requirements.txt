@@ -1,0 +1,9 @@
+requests
+beautifulsoup4
+pandas
+lxml
+scikit-learn
+matplotlib
+seaborn
+xgboost
+statsmodels
