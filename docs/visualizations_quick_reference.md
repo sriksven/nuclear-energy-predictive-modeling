@@ -99,7 +99,7 @@ This document provides a visual overview of all plots generated in the Nuclear E
 
 ---
 
-## 🔑 Key Takeaways
+## Key Takeaways
 
 1. **Strong Predictive Accuracy:** Regression models achieve 95.73% R² on test data
 2. **Validated Forecasting:** SARIMA model achieves <1% error on 2024-2025 backtest
