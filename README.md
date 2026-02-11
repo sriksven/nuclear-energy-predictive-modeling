@@ -91,6 +91,14 @@ streamlit run dashboard/app.py
 - **Scenario Simulator**: Predict impact of global capacity growth on uranium demand.
 - **Future Forecast**: Visualize the 5-year demand forecast with confidence intervals.
 
+## Deployment
+### Streamlit Community Cloud
+The easiest way to deploy this dashboard is using [Streamlit Community Cloud](https://streamlit.io/cloud).
+1.  **Connect your GitHub account** to Streamlit Cloud.
+2.  **Point to this repository**.
+3.  **Set the Main File Path** to `dashboard/app.py`.
+4.  The app will automatically deploy and stay updated with your `main` branch.
+
 ## Key Results
 
 ### Regression Performance (Test Set)
