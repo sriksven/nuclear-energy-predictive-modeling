@@ -7,6 +7,6 @@ matplotlib
 seaborn
 xgboost
 statsmodels
-streamlit
+streamlit>=1.40.0
 plotly
 openpyxl
