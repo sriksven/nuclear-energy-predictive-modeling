@@ -232,14 +232,14 @@ test = y[split_date:]   # Recent data (2024-2025)
 
 ### 6.1 Regression Models
 
-✅ **Testing Methods Applied:**
+**Testing Methods Applied:**
 - Train-test split (80-20)
 - Multiple model comparison (Linear, RF, XGBoost)
 - Residual analysis for bias detection
 - Feature importance validation
 - Actual vs predicted visualization
 
-✅ **Validation Results:**
+**Validation Results:**
 - Random Forest achieved 95.73% R² on test set
 - Low MAE (353 tonnes) confirms accuracy
 - Residuals show no systematic bias
@@ -247,14 +247,14 @@ test = y[split_date:]   # Recent data (2024-2025)
 
 ### 6.2 Time-Series Model
 
-✅ **Testing Methods Applied:**
+**Testing Methods Applied:**
 - Seasonal decomposition analysis
 - ACF/PACF for model specification
 - Backtesting on 2024-2025 data
 - Out-of-sample forecast validation
 - Confidence interval estimation
 
-✅ **Validation Results:**
+**Validation Results:**
 - Backtest MAE of 594 tonnes (<1% error)
 - Forecast captures trend and seasonality
 - Model validated on recent real-world data
