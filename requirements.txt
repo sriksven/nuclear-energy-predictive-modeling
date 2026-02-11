@@ -7,3 +7,6 @@ matplotlib
 seaborn
 xgboost
 statsmodels
+streamlit
+plotly
+openpyxl

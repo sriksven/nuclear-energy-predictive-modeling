@@ -81,6 +81,16 @@ python3 ml_pipeline/time_series_forecast/train_sarima.py
 ```
 *Outputs forecast plots and backtest results to `ml_pipeline/time_series_forecast/visualizations/`.*
 
+### 4. Interactive Dashboard (Streamlit)
+Explore the data and models via an interactive web interface.
+```bash
+streamlit run dashboard/app.py
+```
+**Dashboard Features:**
+- **Overview & EDA**: Global metrics and interactive demand heatmap.
+- **Scenario Simulator**: Predict impact of global capacity growth on uranium demand.
+- **Future Forecast**: Visualize the 5-year demand forecast with confidence intervals.
+
 ## Key Results
 
 ### Regression Performance (Test Set)
