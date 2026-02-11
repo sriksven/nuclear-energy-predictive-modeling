@@ -4,7 +4,7 @@ This document provides a visual overview of all plots generated in the Nuclear E
 
 ---
 
-## 📊 Exploratory Data Analysis (EDA)
+##  Exploratory Data Analysis (EDA)
 
 ### Snapshot Data (Reactor Data)
 
@@ -36,7 +36,7 @@ This document provides a visual overview of all plots generated in the Nuclear E
 
 ---
 
-## 🤖 Regression Models (Capacity → Demand)
+##  Regression Models (Capacity → Demand)
 
 ### Model Performance & Validation
 
@@ -63,7 +63,7 @@ This document provides a visual overview of all plots generated in the Nuclear E
 
 ---
 
-## 📈 Time-Series Forecasting (SARIMA)
+## Time-Series Forecasting (SARIMA)
 
 ### Model Validation & Forecasting
 
@@ -81,7 +81,7 @@ This document provides a visual overview of all plots generated in the Nuclear E
 
 ---
 
-## 📋 Summary Statistics
+##  Summary Statistics
 
 ### Regression Model Performance (Test Set)
 | Model | R² Score | MAE (tonnes) | RMSE (tonnes) |
