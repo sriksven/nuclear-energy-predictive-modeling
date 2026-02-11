@@ -9,21 +9,21 @@ This document provides a visual overview of all plots generated in the Nuclear E
 ### Snapshot Data (2007 Reactor Data)
 
 ````carousel
-![Correlation Matrix - Shows strong positive correlation between reactor capacity (MWe) and uranium demand](/Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/visualizations/eda/snapshot_correlation_matrix.png)
+![Correlation Matrix - Shows strong positive correlation between reactor capacity (MWe) and uranium demand](../ml_pipeline/visualizations/eda/snapshot_correlation_matrix.png)
 <!-- slide -->
-![Top Uranium Consumers - Bar chart showing countries with highest uranium requirements in 2007](/Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/visualizations/eda/snapshot_top_consumers.png)
+![Top Uranium Consumers - Bar chart showing countries with highest uranium requirements in 2007](../ml_pipeline/visualizations/eda/snapshot_top_consumers.png)
 <!-- slide -->
-![Pairplot Analysis - Scatter plot matrix showing relationships between all variables](/Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/visualizations/eda/snapshot_pairplot.png)
+![Pairplot Analysis - Scatter plot matrix showing relationships between all variables](../ml_pipeline/visualizations/eda/snapshot_pairplot.png)
 ````
 
 ### Time-Series Data (2007-2025)
 
 ````carousel
-![Historical Trend - Global uranium demand over 18 years showing steady upward trajectory](/Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/visualizations/eda/timeseries_trend.png)
+![Historical Trend - Global uranium demand over 18 years showing steady upward trajectory](../ml_pipeline/visualizations/eda/timeseries_trend.png)
 <!-- slide -->
-![Distribution Analysis - Histogram and density plot of uranium demand values](/Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/visualizations/eda/timeseries_distribution.png)
+![Distribution Analysis - Histogram and density plot of uranium demand values](../ml_pipeline/visualizations/eda/timeseries_distribution.png)
 <!-- slide -->
-![ACF/PACF Analysis - Autocorrelation plots used to determine SARIMA parameters](/Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/visualizations/eda/timeseries_acf_pacf.png)
+![ACF/PACF Analysis - Autocorrelation plots used to determine SARIMA parameters](../ml_pipeline/visualizations/eda/timeseries_acf_pacf.png)
 ````
 
 ---
@@ -33,18 +33,18 @@ This document provides a visual overview of all plots generated in the Nuclear E
 ### Model Performance & Validation
 
 ````carousel
-![Model Comparison - Bar chart comparing R², MAE, and RMSE across all three models](/Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/regression_analysis/visualizations/model_comparison_metrics.png)
+![Model Comparison - Bar chart comparing R², MAE, and RMSE across all three models](../ml_pipeline/regression_analysis/visualizations/model_comparison_metrics.png)
 <!-- slide -->
-![Residual Analysis - Scatter plot showing prediction errors are randomly distributed around zero](/Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/regression_analysis/visualizations/model_residuals.png)
+![Residual Analysis - Scatter plot showing prediction errors are randomly distributed around zero](../ml_pipeline/regression_analysis/visualizations/model_residuals.png)
 <!-- slide -->
-![Actual vs Predicted - Points cluster tightly around diagonal, demonstrating 95.73% R² accuracy](/Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/regression_analysis/visualizations/model_validation_plot.png)
+![Actual vs Predicted - Points cluster tightly around diagonal, demonstrating 95.73% R² accuracy](../ml_pipeline/regression_analysis/visualizations/model_validation_plot.png)
 <!-- slide -->
-![Feature Importance - Reactor capacity (MWe) is the dominant predictor in Random Forest model](/Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/regression_analysis/visualizations/feature_importance.png)
+![Feature Importance - Reactor capacity (MWe) is the dominant predictor in Random Forest model](../ml_pipeline/regression_analysis/visualizations/feature_importance.png)
 ````
 
 ### Future Projections
 
-![Demand Projection - Scenario analysis showing potential 44% increase if all proposed reactors are built](/Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/regression_analysis/visualizations/demand_projection_plot.png)
+![Demand Projection - Scenario analysis showing potential 44% increase if all proposed reactors are built](../ml_pipeline/regression_analysis/visualizations/demand_projection_plot.png)
 
 ---
 
@@ -53,11 +53,11 @@ This document provides a visual overview of all plots generated in the Nuclear E
 ### Model Validation & Forecasting
 
 ````carousel
-![Seasonal Decomposition - Breaks down time series into trend, seasonal, and residual components](/Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/time_series_forecast/visualizations/sarima_decomposition.png)
+![Seasonal Decomposition - Breaks down time series into trend, seasonal, and residual components](../ml_pipeline/time_series_forecast/visualizations/sarima_decomposition.png)
 <!-- slide -->
-![Backtest Validation - SARIMA forecast vs actual 2024-2025 data (MAE: 594 tonnes, <1% error)](/Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/time_series_forecast/visualizations/sarima_backtest.png)
+![Backtest Validation - SARIMA forecast vs actual 2024-2025 data (MAE: 594 tonnes, <1% error)](../ml_pipeline/time_series_forecast/visualizations/sarima_backtest.png)
 <!-- slide -->
-![5-Year Forecast - Predicts demand reaching ~71,700 tonnes by 2030 with confidence intervals](/Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/time_series_forecast/visualizations/sarima_forecast.png)
+![5-Year Forecast - Predicts demand reaching ~71,700 tonnes by 2030 with confidence intervals](../ml_pipeline/time_series_forecast/visualizations/sarima_forecast.png)
 ````
 
 ---

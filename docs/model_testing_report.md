@@ -36,32 +36,32 @@ All models were rigorously tested using industry-standard validation techniques 
 ### 2.1 Snapshot Data Analysis
 
 #### Correlation Matrix
-![Correlation Matrix](/Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/visualizations/eda/snapshot_correlation_matrix.png)
+![Correlation Matrix](../ml_pipeline/visualizations/eda/snapshot_correlation_matrix.png)
 
 **Key Findings:**
 - Strong positive correlation between reactor capacity (MWe) and uranium demand
 - Number of reactors also correlates with demand, but capacity is the stronger predictor
 
 #### Top Uranium Consumers (2007)
-![Top Consumers](/Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/visualizations/eda/snapshot_top_consumers.png)
+![Top Consumers](../ml_pipeline/visualizations/eda/snapshot_top_consumers.png)
 
 #### Pairplot Analysis
-![Pairplot](/Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/visualizations/eda/snapshot_pairplot.png)
+![Pairplot](../ml_pipeline/visualizations/eda/snapshot_pairplot.png)
 
 ### 2.2 Time-Series Data Analysis
 
 #### Historical Trend (2007-2025)
-![Time Series Trend](/Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/visualizations/eda/timeseries_trend.png)
+![Time Series Trend](../ml_pipeline/visualizations/eda/timeseries_trend.png)
 
 **Observations:**
 - Steady upward trend in global uranium demand
 - Some cyclical patterns visible, suggesting seasonality
 
 #### Distribution Analysis
-![Distribution](/Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/visualizations/eda/timeseries_distribution.png)
+![Distribution](../ml_pipeline/visualizations/eda/timeseries_distribution.png)
 
 #### ACF/PACF Analysis
-![ACF PACF](/Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/visualizations/eda/timeseries_acf_pacf.png)
+![ACF PACF](../ml_pipeline/visualizations/eda/timeseries_acf_pacf.png)
 
 **Statistical Insights:**
 - ACF shows gradual decay, indicating trend component
@@ -102,7 +102,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 ### 3.3 Test Results
 
 #### Performance Comparison
-![Model Comparison](/Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/regression_analysis/visualizations/model_comparison_metrics.png)
+![Model Comparison](../ml_pipeline/regression_analysis/visualizations/model_comparison_metrics.png)
 
 #### Detailed Metrics (Test Set)
 
@@ -118,12 +118,12 @@ X_train, X_test, y_train, y_test = train_test_split(
 - Superior to both baseline and XGBoost
 
 #### R² Score Comparison
-![R2 Comparison](/Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/regression_analysis/visualizations/model_comparison_r2.png)
+![R2 Comparison](../ml_pipeline/regression_analysis/visualizations/model_comparison_r2.png)
 
 ### 3.4 Model Validation
 
 #### Residual Analysis
-![Residuals](/Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/regression_analysis/visualizations/model_residuals.png)
+![Residuals](../ml_pipeline/regression_analysis/visualizations/model_residuals.png)
 
 **Interpretation:**
 - Residuals are randomly scattered around zero
@@ -131,7 +131,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 - Confirms model validity and good fit
 
 #### Actual vs Predicted
-![Validation Plot](/Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/regression_analysis/visualizations/model_validation_plot.png)
+![Validation Plot](../ml_pipeline/regression_analysis/visualizations/model_validation_plot.png)
 
 **Analysis:**
 - Points cluster tightly around the diagonal line (perfect prediction)
@@ -139,7 +139,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 - Model generalizes well to unseen data
 
 #### Feature Importance
-![Feature Importance](/Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/regression_analysis/visualizations/feature_importance.png)
+![Feature Importance](../ml_pipeline/regression_analysis/visualizations/feature_importance.png)
 
 **Key Insights:**
 - Reactor capacity (MWe) is the dominant predictor
@@ -164,7 +164,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 - Differencing (d=1, D=1) ensures stationarity
 
 ### 4.2 Seasonal Decomposition
-![Decomposition](/Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/time_series_forecast/visualizations/sarima_decomposition.png)
+![Decomposition](../ml_pipeline/time_series_forecast/visualizations/sarima_decomposition.png)
 
 **Components:**
 - **Trend:** Clear upward trajectory
@@ -187,7 +187,7 @@ test = y[split_date:]   # Recent data (2024-2025)
 - **Validation:** Compare forecasted values against actual observed data
 
 #### Backtest Results
-![Backtest](/Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/time_series_forecast/visualizations/sarima_backtest.png)
+![Backtest](../ml_pipeline/time_series_forecast/visualizations/sarima_backtest.png)
 
 **Performance Metrics:**
 
@@ -207,7 +207,7 @@ test = y[split_date:]   # Recent data (2024-2025)
 ## 5. Future Projections
 
 ### 5.1 Regression-Based Scenario Analysis
-![Demand Projections](/Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/regression_analysis/visualizations/demand_projection_plot.png)
+![Demand Projections](../ml_pipeline/regression_analysis/visualizations/demand_projection_plot.png)
 
 **Scenarios Tested:**
 1. **Current (2007):** 66,529 tonnes
@@ -218,7 +218,7 @@ test = y[split_date:]   # Recent data (2024-2025)
 **Total Potential Demand:** ~96,086 tonnes (44% increase)
 
 ### 5.2 SARIMA 5-Year Forecast (2026-2030)
-![SARIMA Forecast](/Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/time_series_forecast/visualizations/sarima_forecast.png)
+![SARIMA Forecast](../ml_pipeline/time_series_forecast/visualizations/sarima_forecast.png)
 
 **Predictions:**
 - **2030 Demand:** ~71,700 tonnes
@@ -282,16 +282,16 @@ All visualizations, metrics, and testing code are available in the project repos
 ## Appendix: Testing Code References
 
 ### Regression Testing
-- **Script:** [train_linear_rf_xgboost.py](file:///Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/regression_analysis/train_linear_rf_xgboost.py)
-- **Metrics:** [metrics_comparison.csv](file:///Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/regression_analysis/metrics_comparison.csv)
+- **Script:** [train_linear_rf_xgboost.py](file://../ml_pipeline/regression_analysis/train_linear_rf_xgboost.py)
+- **Metrics:** [metrics_comparison.csv](file://../ml_pipeline/regression_analysis/metrics_comparison.csv)
 - **Key Functions:**
   - `train_test_split()` - Lines 42
   - `evaluate_model()` - Lines 45-54
   - Cross-validation and metrics calculation
 
 ### Time-Series Testing
-- **Script:** [train_sarima.py](file:///Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/time_series_forecast/train_sarima.py)
-- **Metrics:** [sarima_metrics.csv](file:///Users/sriks/Documents/Projects/nuclear-energy-predictive-modeling/ml_pipeline/time_series_forecast/sarima_metrics.csv)
+- **Script:** [train_sarima.py](file://../ml_pipeline/time_series_forecast/train_sarima.py)
+- **Metrics:** [sarima_metrics.csv](file://../ml_pipeline/time_series_forecast/sarima_metrics.csv)
 - **Key Functions:**
   - `seasonal_decompose()` - Line 38
   - Backtesting split - Lines 48-51
