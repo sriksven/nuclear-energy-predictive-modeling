@@ -8,23 +8,31 @@ This document provides a visual overview of all plots generated in the Nuclear E
 
 ### Snapshot Data (2007 Reactor Data)
 
-````carousel
-![Correlation Matrix - Shows strong positive correlation between reactor capacity (MWe) and uranium demand](../ml_pipeline/visualizations/eda/snapshot_correlation_matrix.png)
-<!-- slide -->
-![Top Uranium Consumers - Bar chart showing countries with highest uranium requirements in 2007](../ml_pipeline/visualizations/eda/snapshot_top_consumers.png)
-<!-- slide -->
-![Pairplot Analysis - Scatter plot matrix showing relationships between all variables](../ml_pipeline/visualizations/eda/snapshot_pairplot.png)
-````
+#### Correlation Matrix
+![Correlation Matrix](../ml_pipeline/visualizations/eda/snapshot_correlation_matrix.png)
+*Shows strong positive correlation between reactor capacity (MWe) and uranium demand*
+
+#### Top Uranium Consumers
+![Top Uranium Consumers](../ml_pipeline/visualizations/eda/snapshot_top_consumers.png)
+*Bar chart showing countries with highest uranium requirements in 2007*
+
+#### Pairplot Analysis
+![Pairplot Analysis](../ml_pipeline/visualizations/eda/snapshot_pairplot.png)
+*Scatter plot matrix showing relationships between all variables*
 
 ### Time-Series Data (2007-2025)
 
-````carousel
-![Historical Trend - Global uranium demand over 18 years showing steady upward trajectory](../ml_pipeline/visualizations/eda/timeseries_trend.png)
-<!-- slide -->
-![Distribution Analysis - Histogram and density plot of uranium demand values](../ml_pipeline/visualizations/eda/timeseries_distribution.png)
-<!-- slide -->
-![ACF/PACF Analysis - Autocorrelation plots used to determine SARIMA parameters](../ml_pipeline/visualizations/eda/timeseries_acf_pacf.png)
-````
+#### Historical Trend
+![Historical Trend](../ml_pipeline/visualizations/eda/timeseries_trend.png)
+*Global uranium demand over 18 years showing steady upward trajectory*
+
+#### Distribution Analysis
+![Distribution Analysis](../ml_pipeline/visualizations/eda/timeseries_distribution.png)
+*Histogram and density plot of uranium demand values*
+
+#### ACF/PACF Analysis
+![ACF/PACF Analysis](../ml_pipeline/visualizations/eda/timeseries_acf_pacf.png)
+*Autocorrelation plots used to determine SARIMA parameters*
 
 ---
 
@@ -32,15 +40,21 @@ This document provides a visual overview of all plots generated in the Nuclear E
 
 ### Model Performance & Validation
 
-````carousel
-![Model Comparison - Bar chart comparing R², MAE, and RMSE across all three models](../ml_pipeline/regression_analysis/visualizations/model_comparison_metrics.png)
-<!-- slide -->
-![Residual Analysis - Scatter plot showing prediction errors are randomly distributed around zero](../ml_pipeline/regression_analysis/visualizations/model_residuals.png)
-<!-- slide -->
-![Actual vs Predicted - Points cluster tightly around diagonal, demonstrating 95.73% R² accuracy](../ml_pipeline/regression_analysis/visualizations/model_validation_plot.png)
-<!-- slide -->
-![Feature Importance - Reactor capacity (MWe) is the dominant predictor in Random Forest model](../ml_pipeline/regression_analysis/visualizations/feature_importance.png)
-````
+#### Model Comparison
+![Model Comparison](../ml_pipeline/regression_analysis/visualizations/model_comparison_metrics.png)
+*Bar chart comparing R², MAE, and RMSE across all three models*
+
+#### Residual Analysis
+![Residual Analysis](../ml_pipeline/regression_analysis/visualizations/model_residuals.png)
+*Scatter plot showing prediction errors are randomly distributed around zero*
+
+#### Actual vs Predicted
+![Actual vs Predicted](../ml_pipeline/regression_analysis/visualizations/model_validation_plot.png)
+*Points cluster tightly around diagonal, demonstrating 95.73% R² accuracy*
+
+#### Feature Importance
+![Feature Importance](../ml_pipeline/regression_analysis/visualizations/feature_importance.png)
+*Reactor capacity (MWe) is the dominant predictor in Random Forest model*
 
 ### Future Projections
 
@@ -52,13 +66,17 @@ This document provides a visual overview of all plots generated in the Nuclear E
 
 ### Model Validation & Forecasting
 
-````carousel
-![Seasonal Decomposition - Breaks down time series into trend, seasonal, and residual components](../ml_pipeline/time_series_forecast/visualizations/sarima_decomposition.png)
-<!-- slide -->
-![Backtest Validation - SARIMA forecast vs actual 2024-2025 data (MAE: 594 tonnes, <1% error)](../ml_pipeline/time_series_forecast/visualizations/sarima_backtest.png)
-<!-- slide -->
-![5-Year Forecast - Predicts demand reaching ~71,700 tonnes by 2030 with confidence intervals](../ml_pipeline/time_series_forecast/visualizations/sarima_forecast.png)
-````
+#### Seasonal Decomposition
+![Seasonal Decomposition](../ml_pipeline/time_series_forecast/visualizations/sarima_decomposition.png)
+*Breaks down time series into trend, seasonal, and residual components*
+
+#### Backtest Validation
+![Backtest Validation](../ml_pipeline/time_series_forecast/visualizations/sarima_backtest.png)
+*SARIMA forecast vs actual 2024-2025 data (MAE: 594 tonnes, <1% error)*
+
+#### 5-Year Forecast
+![5-Year Forecast](../ml_pipeline/time_series_forecast/visualizations/sarima_forecast.png)
+*Predicts demand reaching ~71,700 tonnes by 2030 with confidence intervals*
 
 ---
 
